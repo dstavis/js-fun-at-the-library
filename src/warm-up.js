@@ -14,7 +14,6 @@ var title = "Harry Potter";
 var pages = 634;
 
 
-console.log(pages)
 
 
 
@@ -23,7 +22,6 @@ console.log(pages)
 // of what it currently is
 
 pages = pages / 4;
-console.log(pages)
 
 // Initialize a new variable "movie", but leave it undefined
 
@@ -33,7 +31,6 @@ var movie;
 // book (made up or not!). Your sequel must make use of your "title" variable from above
 
 var sequel = title + " and the Chamber of Secrets"
-console.log(sequel)
 
 // Initialize a new variable "isFavorite", and assign it to a boolean value indicating
 // if the book you chose is your favorite book or not
@@ -47,7 +44,6 @@ var isFavorite = false;
 // comparison operator.
 
 var isShortStory = (pages < 25)
-console.log(isShortStory)
 
 //------------------------- Conditionals -------------------------//
 
@@ -59,7 +55,7 @@ console.log(isShortStory)
 if(pages < 1000){
   console.log("I could read that in a day!")
 } else {
-  "Ok, maybe I could read that in a day and a half"
+  console.log("Ok, maybe I could read that in a day and a half")
 }
 
 // Express the following in code: If the variable "isFavorite" is true,
@@ -85,7 +81,7 @@ var books = ["Howl's Moving Castle", "The Many Lives of Chris Chant", "The Winds
 // Write the code to access the 3rd element of the Array, using bracket
 // notation.
 
-console.log(books[2])
+books[2]
 
 
 // Create a new variable "belowTwoHundred" and assign it to an Array of 12
@@ -95,7 +91,7 @@ var belowTwoHundred = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
 
 // Write the code to access the 5th element of the array, using bracket notation.
-console.log(belowTwoHundred[4])
+belowTwoHundred[4]
 
 
 //------------------------- Objects -------------------------//
@@ -113,5 +109,3 @@ var dictionary = {
 // notation to do this. DO NOT modify your code from above.
 
 dictionary.pageCount = 720;
-
-console.log(dictionary)
