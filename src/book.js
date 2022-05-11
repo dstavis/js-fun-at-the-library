@@ -9,13 +9,21 @@ function buildMainCharacter(name, age, pronouns) {
     age: age,
     pronouns: pronouns
   }
-  return character
+  return character;
+}
+
+function saveReview(newReview, reviews) {
+  // If the text of the newReview matches any existing review, don't add it
+  if(reviews.includes(newReview)){
+  } else {
+    reviews.push(newReview)
+  }
 }
 
 module.exports = {
   createTitle,
   buildMainCharacter,
-  // saveReview,
+  saveReview,
   // calculatePageCount,
   // writeBook,
   // editBook
