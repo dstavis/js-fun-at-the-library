@@ -37,6 +37,24 @@ function searchShelf(shelfToSearch, titleOfTheBookToSearchFor){
   return hasABookWithAMatchingTitleBeenFound;
 }
 
+
+// Alternate implementation
+
+
+// function searchShelf(shelfToSearch, titleOfTheBookToSearchFor){
+//
+//   for(var currentIndex = 0;currentIndex < shelfToSearch.length;currentIndex++) {
+//     var bookFromShelf = shelfToSearch[currentIndex]
+//     if (bookFromShelf.title === titleOfTheBookToSearchFor){
+//       return hasABookWithAMatchingTitleBeenFound;
+//     }
+//   }
+//
+//   return false;
+// }
+
+
+
 module.exports = {
   shelfBook,
   unshelfBook,
